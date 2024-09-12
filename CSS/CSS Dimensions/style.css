@@ -1,0 +1,21 @@
+.box{
+    max-height: 50px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.mydiv{
+    margin: 10px;
+    min-height: 20px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#overflow{
+    height: 60px;
+    border: 1px solid black;
+    overflow: visible;
+    overflow: hidden;
+    overflow: auto;
+    overflow: scroll;
+}
