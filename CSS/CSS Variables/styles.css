@@ -1,0 +1,18 @@
+.root{
+    --dark-red:#981a2c;  /*global variable*/
+}
+
+.container{
+    border: 1px solid black;
+     height: 300px;
+    width: 300px;
+    --blue-dark:#091cea;   /*local variable*/
+    background-color: var(--blue-dark);
+}
+
+.box{
+    border: 2px solid red;
+    background-color: green;
+    color: var(--dark-red);
+
+}
