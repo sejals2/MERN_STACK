@@ -155,3 +155,14 @@ let filtere=n4.filter(value=>value>=0);
 
 let item=filtere.map(num=>{value:num});
 console.log(item);
+
+
+//reducing an array
+let ar=[1,2,3,4,5];
+let total=0;
+
+for(let value of ar){
+      total=total+value;
+}
+
+console.log(total);
